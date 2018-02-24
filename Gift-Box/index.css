@@ -1,0 +1,43 @@
+body, html {
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #6be5d3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.lid {
+  width: 85vh;
+  height: 15vh;
+  background: #f7f43d;
+  align-self: center;
+}
+.base {
+  width: 70vh;
+  height: 40vh;
+  background: #f7f43d;
+  align-self: center;
+  border-top: 5px solid #cecb29;
+}
+.wrapper-top {
+  position: absolute;
+  top: 21.6vh;
+  width: 9vh;
+  height: 15vh;
+  background: #ef6e88;
+  align-self: center;
+}
+.wrapper-bottom {
+  position:absolute;
+  top:36.6vh;
+  width: 9vh;
+  height: 40vh;
+  background: #f25272;
+  align-self: center;
+  border-top: 5px solid #ad324a;
+}
+
+
