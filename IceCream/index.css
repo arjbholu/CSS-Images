@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #f8d6fc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icecream {
+  width: 25vh;
+  height: 45vh;
+  background: #44fcea;
+  border-radius: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inner {
+  width: 4vh;
+  height: 30vh;
+  background: #00a4b7;
+  border-radius: 15%;
+}
+
+.stick {
+  width: 6vh;
+  height: 25vh;
+  background: #fcd676;
+  border-right: 4px solid #ffc430;
+  border-radius: 10%;
+}
