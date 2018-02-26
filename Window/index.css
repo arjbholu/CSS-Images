@@ -1,0 +1,98 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 150vh;
+  height: 90vh;
+  background: #fff;
+  border: 1.5vh solid #c2c7d0;
+}
+
+.header {
+  width: 150vh;
+  height: 13vh;
+  background: #c2c7d0;
+  display: flex;
+  align-items: center;
+}
+
+.options {
+  width: 18vh;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  width: 4vh;
+  height: 4vh;
+  border-radius: 50%;
+}
+
+.red {
+  background: #fb5153;
+}
+
+.yellow {
+  background: #fbad51;
+}
+
+.green {
+  background: #65b34d;
+}
+
+.address-box {
+  width: 108vh;
+  height: 10vh;
+  background: #fff;
+  margin-left: 4vh;
+  border-radius: 2vh;
+}
+
+.hamburger-menu {
+  width: 20vh;
+  height: 8vh;
+  background: #c2c7d0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  width: 8vh;
+  height: 1.5vh;
+  background: #fff;
+  border-radius: 0.5vh;
+}
+
+.display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 15vh 30vh 15vh;
+  grid-gap: 2vh;
+  padding: 2vh;
+}
+
+.one {
+  margin: 2vh;
+  background: #a5e8f0;
+  grid-column: 1 / -1;
+}
+
+.two {
+  background: #bce4af;
+  margin: 2vh;
+}
+
+.three {
+  margin: 2vh;
+  background: lightpink;
+  grid-column: 1 / -1;
+}
